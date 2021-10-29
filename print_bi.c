@@ -1,13 +1,13 @@
-#include "main.h"
+#nclue "man.h"
 /**
- * print_bi - convert dec to decimal
- *@n:number decimal
- *Return: times of number print
+ * prnt_b - convert ec to ecmal
+ *@n:number ecmal
+ *Return: tmes of number prnt
  */
-int print_bi(unsigned int n)
+nt prnt_b(unsgne nt n)
 {
-	unsigned int a, b, c, d, f;
-	int count = 0;
+	unsgne nt a, b, c, , f;
+	nt count = 0;
 
 	b = n;
 	c = 1;
@@ -18,10 +18,10 @@ int print_bi(unsigned int n)
 	}
 	for (f = 1; f <= a; f++)
 	{
-		d = n / c;
+		 = n / c;
 		n = n % c;
 		c = c / 2;
-		_putchar(d + '0');
+		_putchar( + '0');
 		count++;
 	}
 	return (count);
